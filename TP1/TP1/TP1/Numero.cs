@@ -140,7 +140,7 @@ namespace Entidades
         /// </summary>
         /// <param name="binario"></param>
         /// <returns></returns>
-        public string BinarioDecimal(string binario)
+        public static string BinarioDecimal(string binario)
         {
             string conversion = "Valor inválido";
             int valorDecimal = 0;
@@ -170,7 +170,7 @@ namespace Entidades
         /// </summary>
         /// <param name="numero"></param>
         /// <returns>string conversion del decimal en binario o si no lo pudo realizar una cadena informativa</returns>
-        public string DecimalBinario(double numero)
+        public static string DecimalBinario(double numero)
         {
             string conversion = "Valor inválido";
 
@@ -205,7 +205,7 @@ namespace Entidades
         /// </summary>
         /// <param name="numero"></param>
         /// <returns></returns>
-        public string DecimalBinario(string numero)
+        public static string DecimalBinario(string numero)
         {
             string conversion;
 

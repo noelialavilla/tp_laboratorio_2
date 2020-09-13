@@ -11,3 +11,16 @@ D:\LabII\TP_Laboratorio_II\TP1_V2\TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
 D:\LabII\TP_Laboratorio_II\TP1_V2\TP1\MiCalculadora\bin\Debug\TP1.dll
 D:\LabII\TP_Laboratorio_II\TP1_V2\TP1\MiCalculadora\bin\Debug\TP1.pdb
 D:\LabII\TP_Laboratorio_II\TP1_V2\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\bin\Debug\TP1.dll
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\bin\Debug\TP1.pdb
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\LabII\TP_Laboratorio_II\TP1\TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb

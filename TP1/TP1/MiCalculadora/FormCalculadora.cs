@@ -81,5 +81,31 @@ namespace MiCalculadora
         {
             Dispose();
         }
+
+        /// <summary>
+        /// Convierte el resultado de la operación en un numero binario y lo muestra en lblResultado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnConvertirABinario_Click(object sender, EventArgs e)
+        {
+            this.lblResultado.Text = Numero.DecimalBinario(this.lblResultado.Text);
+            btnConvertirABinario.Enabled = false;
+            btnConvertirADecimal.Enabled = true;
+            
+        }
+
+        /// <summary>
+        /// Convierte el resultado de la operación previamente convertido a binario a decimal
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnConvertirADecimal_Click(object sender, EventArgs e)
+        {
+            this.lblResultado.Text = Numero.BinarioDecimal(this.lblResultado.Text);
+            btnConvertirABinario.Enabled = true;
+            btnConvertirADecimal.Enabled = false;
+
+        }
     }
 }

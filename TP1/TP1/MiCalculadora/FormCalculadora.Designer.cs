@@ -122,6 +122,7 @@
             this.btnConvertirABinario.TabIndex = 7;
             this.btnConvertirABinario.Text = "Convertir a Binario";
             this.btnConvertirABinario.UseVisualStyleBackColor = true;
+            this.btnConvertirABinario.Click += new System.EventHandler(this.BtnConvertirABinario_Click);
             // 
             // btnConvertirADecimal
             // 
@@ -132,6 +133,7 @@
             this.btnConvertirADecimal.TabIndex = 8;
             this.btnConvertirADecimal.Text = "Convertir a Decimal";
             this.btnConvertirADecimal.UseVisualStyleBackColor = true;
+            this.btnConvertirADecimal.Click += new System.EventHandler(this.BtnConvertirADecimal_Click);
             // 
             // FormCalculadora
             // 
