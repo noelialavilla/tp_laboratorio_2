@@ -40,6 +40,7 @@ namespace Entidades
         public static double Operar(Numero num1, Numero num2, string operador)
         {
             double resultado;
+            
             operador = ValidarOperador(operador[0]);
 
             switch (operador)

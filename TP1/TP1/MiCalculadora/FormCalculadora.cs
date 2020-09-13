@@ -28,7 +28,14 @@ namespace MiCalculadora
         {
             string primerOperando = this.txtNumero1.Text;
             string segundoOperando = this.txtNumero2.Text;
-            string operador = this.cmbOperador.Text;
+            string operador;
+            if (this.cmbOperador.SelectedItem == null)
+            {
+                operador = "+";
+            }else
+            {
+                operador = this.cmbOperador.SelectedItem.ToString();
+            }
             this.lblResultado.Text = (Operar(primerOperando, segundoOperando, operador)).ToString();
             btnConvertirADecimal.Enabled = false;
         }
@@ -72,15 +79,7 @@ namespace MiCalculadora
             
         }
 
-        /// <summary>
-        /// cierra el formulario mediante el metodo Dispose()
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void BtnCerrar_Click(object sender, EventArgs e)
-        {
-            Dispose();
-        }
+
 
         /// <summary>
         /// Convierte el resultado de la operación en un numero binario y lo muestra en lblResultado
@@ -107,5 +106,17 @@ namespace MiCalculadora
             btnConvertirADecimal.Enabled = false;
 
         }
+
+        /// <summary>
+        /// cierra el formulario mediante el metodo Dispose()
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+      
     }
 }
