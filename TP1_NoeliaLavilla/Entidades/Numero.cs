@@ -206,19 +206,15 @@ namespace Entidades
         /// <returns></returns>
         public static string DecimalBinario(string numero)
         {
-            string conversion;
+            string conversion = "Valor invalido";
 
-            if (EsBinario(numero))
+            if(double.TryParse(numero, out double numeroDouble))
             {
-                conversion = numero;
-            }
-            else
-            {
-                double.TryParse(numero, out double numeroDouble);
 
                 conversion = DecimalBinario(numeroDouble);
 
             }
+
             return conversion;
         }
 

@@ -37,7 +37,8 @@ namespace MiCalculadora
                 operador = this.cmbOperador.SelectedItem.ToString();
             }
             this.lblResultado.Text = (Operar(primerOperando, segundoOperando, operador)).ToString();
-            btnConvertirADecimal.Enabled = false;
+            this.btnConvertirADecimal.Enabled = false;
+            this.btnConvertirABinario.Enabled = true;
         }
 
         /// <summary>
