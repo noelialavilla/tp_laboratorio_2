@@ -143,12 +143,16 @@ namespace Entidades
         public static string BinarioDecimal(string binario)
         {
             string conversion = "Valor inválido";
+            
             int valorDecimal = 0;
             if (EsBinario(binario))
             {
-                for (int i = 0; i < binario.Length; i++)
+                char[] chArrayBinario = binario.ToCharArray();
+                Array.Reverse(chArrayBinario);
+
+                for (int i = 0; i < chArrayBinario.Length; i++)
                 {
-                    if (binario[i] == '1')
+                    if (chArrayBinario[i] == '1')
                     {
                         if (i == 0)
                         {
@@ -173,27 +177,22 @@ namespace Entidades
         public static string DecimalBinario(double numero)
         {
             string conversion = "Valor inválido";
+            int valorAbsoluto = (int)(numero);
 
-            if (numero == 0)
+            if (valorAbsoluto == 0)
             {
                 conversion = "0";
             }
-            else if (numero > 0)
+            else if (valorAbsoluto > 0)
             {
                 conversion = "";
-                while (numero > 0)
+                while (valorAbsoluto > 1)
                 {
-                    if (numero % 2 == 0)
-                    {
-                        conversion = "0" + conversion;
-                    }
-                    else
-                    {
-                        conversion = "1" + conversion;
-                    }
-                    numero = (int)(numero / 2);
+                    int residuo = valorAbsoluto % 2;
+                    conversion = Convert.ToString(residuo) + conversion;
+                    valorAbsoluto /= 2;
                 }
-
+                conversion = Convert.ToString(valorAbsoluto) + conversion;
             }
 
             return conversion;

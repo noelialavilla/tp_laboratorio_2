@@ -37,3 +37,16 @@ D:\TP1\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComple
 D:\TP1\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.exe
 D:\TP1\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.pdb
 D:\TP1\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\bin\Debug\Entidades.dll
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\bin\Debug\Entidades.pdb
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\LabII\TP_Laboratorio_II\TP1_NoeliaLavilla\MiCalculadora\obj\Debug\MiCalculadora.pdb
