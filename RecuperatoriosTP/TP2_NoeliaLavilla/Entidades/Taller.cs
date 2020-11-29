@@ -62,19 +62,19 @@ namespace Entidades
                     case ETipo.Ciclomotor:
                         if (v is Ciclomotor)
                         {
-                            sb.AppendLine(((Ciclomotor)v).Mostrar());
+                            sb.AppendLine(v.Mostrar());
                         }
                         break;
                     case ETipo.Sedan:
                         if (v is Sedan)
                         {
-                            sb.AppendLine(((Sedan)v).Mostrar());
+                            sb.AppendLine(v.Mostrar());
                         }
                         break;
                     case ETipo.SUV:
                         if (v is Suv)
                         {
-                            sb.AppendLine(((Suv)v).Mostrar());
+                            sb.AppendLine(v.Mostrar());
                         }
                         break;
                     default:
