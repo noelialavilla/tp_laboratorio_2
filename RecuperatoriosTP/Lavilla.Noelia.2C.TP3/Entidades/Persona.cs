@@ -93,7 +93,14 @@ namespace EntidadesAbstractas
         {
             set
             {
-                this.dni = this.ValidarDni(this.nacionalidad, value);
+                try
+                {
+                    this.dni = this.ValidarDni(this.nacionalidad, value);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message.ToString());
+                }
             }
         }
 
@@ -184,9 +191,9 @@ namespace EntidadesAbstractas
             }
             else
             {
-                return 0;
+                //return 0;
                 //hrow new DniInvalidoException();
-                //throw new Excepciones.NacionalidadInvalidaException("La nacionalidad no es valida");
+                throw new Excepciones.NacionalidadInvalidaException("La nacionalidad no es valida");
             }
         }
         /// <summary>
