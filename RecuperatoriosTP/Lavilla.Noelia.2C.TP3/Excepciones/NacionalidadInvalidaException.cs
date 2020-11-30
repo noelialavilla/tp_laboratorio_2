@@ -11,12 +11,13 @@ namespace Excepciones
     /// </summary>
     public class NacionalidadInvalidaException : Exception
     {
-        public NacionalidadInvalidaException() :base("El numero de DNI no es compatible con su nacionalidad.")
-        { }
-
-        public NacionalidadInvalidaException(string message) :base(message)
+        public NacionalidadInvalidaException(string message) : base(message)
         {
-
         }
+       
+        public NacionalidadInvalidaException() : this("El numero de DNI no es compatible con su nacionalidad")
+        {
+        }
+       
     }
 }

@@ -1,0 +1,13 @@
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Entidades.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Entidades.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Archivos;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 using Clases_Instanciables;
 using Excepciones;
 

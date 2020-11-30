@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Universitario : Persona
     {
@@ -51,7 +51,7 @@ namespace ClasesAbstractas
         /// <returns></returns>
         protected virtual string MostrarDatos()
         {
-            StringBuilder sb = new StringBuilder;
+            StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.ToString());
             sb.AppendLine($"LEGAJO NÚMERO: {this.legajo}");
             return sb.ToString();

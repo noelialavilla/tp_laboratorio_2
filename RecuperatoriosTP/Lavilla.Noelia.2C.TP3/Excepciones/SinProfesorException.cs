@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    class SinProfesorException
+    public class SinProfesorException : Exception
     {
+        /// <summary>
+        /// Constructor por defecto.
+        /// </summary>
+        public SinProfesorException()
+            : base("No hay profesor que pueda dictar la clase")
+        {
+
+        }
     }
 }

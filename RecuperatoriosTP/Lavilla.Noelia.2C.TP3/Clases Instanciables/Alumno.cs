@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 
 namespace Clases_Instanciables
 {
@@ -32,7 +32,7 @@ namespace Clases_Instanciables
         /// <param name="dni"></param>
         /// <param name="nacionalidad"></param>
         /// <param name="claseQueToma"></param>
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClases claseQueToma)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
             :base(id, nombre, apellido, dni, nacionalidad)
         {
             this.claseQueToma = claseQueToma;

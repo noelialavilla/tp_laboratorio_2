@@ -1,0 +1,16 @@
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Testeo.exe.config
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Testeo.exe
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Testeo.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Archivos.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Clases Instanciables.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Entidades.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Excepciones.dll
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Archivos.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Clases Instanciables.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Entidades.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Release\Excepciones.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Release\Testeo.csprojAssemblyReference.cache
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Release\Testeo.csproj.CoreCompileInputs.cache
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Release\Testeo.csproj.CopyComplete
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Release\Testeo.exe
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Release\Testeo.pdb

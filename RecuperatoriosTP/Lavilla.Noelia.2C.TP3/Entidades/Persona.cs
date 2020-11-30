@@ -6,12 +6,12 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Excepciones;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
         #region Campos
-        public enum ENacionalidad { Argentino, Extranjero };
+        public enum ENacionalidad {Argentino, Extranjero };
         private string apellido;
         private int dni;
         private ENacionalidad nacionalidad;
@@ -44,7 +44,15 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.dni = ValidarDni(this.nacionalidad, value);
+                try
+                {
+                    this.dni = ValidarDni(this.nacionalidad, value);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message.ToString());
+                }
+                
             }
         }
         /// <summary>
@@ -169,14 +177,16 @@ namespace ClasesAbstractas
                 throw new DniInvalidoException();
             }
 
-                if (nacionalidad == ENacionalidad.Argentino && (dato >= 90000000 && dato <= 99999999)
-                || nacionalidad == ENacionalidad.Extranjero && (dato >= 1 && dato <= 89999999))
+            if (nacionalidad == ENacionalidad.Argentino && (dato >= 90000000 && dato <= 99999999)
+            || nacionalidad == ENacionalidad.Extranjero && (dato >= 1 && dato <= 89999999))
             {
                 return dato;
             }
             else
             {
-                throw new NacionalidadInvalidaException();
+                return 0;
+                //hrow new DniInvalidoException();
+                //throw new Excepciones.NacionalidadInvalidaException("La nacionalidad no es valida");
             }
         }
         /// <summary>
