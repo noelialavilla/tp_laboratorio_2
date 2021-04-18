@@ -199,7 +199,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// recibe una cadena, valida si se trata de un numero en binario, de ser asi devuelve ese mismo numero. Caso contrario utiliza el metodo
+        /// recibe una cadena, valiida si se trata de un numero en binario, de ser asi devuelve ese mismo numero. Caso contrario utiliza el metodo
         /// DecimalBinario() que recibe un double para realizar la conversion
         /// </summary>
         /// <param name="numero"></param>
