@@ -1,6 +1,0 @@
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Excepciones\bin\Release\Excepciones.dll
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Excepciones\bin\Release\Excepciones.pdb
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Excepciones\obj\Release\Excepciones.csproj.CoreCompileInputs.cache
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Excepciones\obj\Release\Excepciones.dll
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Excepciones\obj\Release\Excepciones.pdb
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Excepciones\obj\Release\Excepciones.csprojAssemblyReference.cache

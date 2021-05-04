@@ -1,9 +1,0 @@
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\bin\Debug\Entidades.dll
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\bin\Debug\Entidades.pdb
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\bin\Debug\Excepciones.dll
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\bin\Debug\Excepciones.pdb
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\obj\Debug\Clases Abstractas.csproj.CopyComplete
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\obj\Debug\Entidades.dll
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Entidades\obj\Debug\Entidades.pdb
