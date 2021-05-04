@@ -240,10 +240,15 @@ namespace Clases_Instanciables
         {
             if (u != a)
             {
-                u.Alumnos.Add(a);
-                return u;
+                u.alumnos.Add(a);
             }
-            throw new AlumnoRepetidoException();
+            else
+            {
+                throw new AlumnoRepetidoException("Alumno repetido");
+            }
+
+            return u;
+
         }
 
 

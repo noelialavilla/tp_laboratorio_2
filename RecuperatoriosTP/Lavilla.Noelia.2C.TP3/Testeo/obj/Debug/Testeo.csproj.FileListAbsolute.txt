@@ -1,5 +1,3 @@
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.csprojAssemblyReference.cache
-D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.csproj.CoreCompileInputs.cache
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Debug\Testeo.exe.config
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Debug\Testeo.exe
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Debug\Testeo.pdb
@@ -11,6 +9,8 @@ D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Deb
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Debug\Clases Instanciables.pdb
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Debug\Entidades.pdb
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\bin\Debug\Excepciones.pdb
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.csprojAssemblyReference.cache
+D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.csproj.CoreCompileInputs.cache
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.csproj.CopyComplete
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.exe
 D:\LabII\TP_Laboratorio_II\RecuperatoriosTP\Lavilla.Noelia.2C.TP3\Testeo\obj\Debug\Testeo.pdb

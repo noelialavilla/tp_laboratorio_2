@@ -20,9 +20,9 @@ namespace Entidades
         /// <param name="chasis"></param>
         /// <param name="color"></param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color)
-            : base(marca, chasis, color)
+            : this(marca, chasis, color, ETipo.CuatroPuertas)
         {
-            this.tipo = ETipo.CuatroPuertas;
+            
         }
 
         public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo)
