@@ -16,6 +16,12 @@ namespace MiCalculadora
         public LaCalculadora()
         {
             InitializeComponent();
+
+            this.cmbOperador.Items.Add("");
+            this.cmbOperador.Items.Add("-");
+            this.cmbOperador.Items.Add("+");
+            this.cmbOperador.Items.Add("*");
+            this.cmbOperador.Items.Add("/");
         }
 
         /// <summary>
@@ -24,21 +30,26 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnOperar_Click(object sender, EventArgs e)
+        private void btnOperar_Click(object sender, EventArgs e)
         {
             string primerOperando = this.txtNumero1.Text;
             string segundoOperando = this.txtNumero2.Text;
-            string operador;
+            StringBuilder historial = new StringBuilder();
+            char operador;
             if (this.cmbOperador.SelectedItem == null)
             {
-                operador = "+";
-            }else
+                operador = '+';
+            }
+            else
             {
-                operador = this.cmbOperador.SelectedItem.ToString();
+                operador = Convert.ToChar(this.cmbOperador.SelectedItem.ToString());
             }
             this.lblResultado.Text = (Operar(primerOperando, segundoOperando, operador)).ToString();
             this.btnConvertirADecimal.Enabled = false;
             this.btnConvertirABinario.Enabled = true;
+            historial.AppendLine($"{primerOperando} {operador} {segundoOperando} = {this.lblResultado.Text} ");
+            this.lstOperaciones.Items.Add(historial.ToString());
+
         }
 
         /// <summary>
@@ -48,10 +59,10 @@ namespace MiCalculadora
         /// <param name="numero2"></param>
         /// <param name="operador"></param>
         /// <returns> double resultado de la operacion solicitada </returns>
-        private static double Operar(string numero1, string numero2, string operador)
+        private static double Operar(string numero1, string numero2, char operador)
         {
-            Numero primerOperando = new Numero(numero1);
-            Numero segundoOperando = new Numero(numero2);
+            Operando primerOperando = new Operando(numero1);
+            Operando segundoOperando = new Operando(numero2);
 
             return Calculadora.Operar(primerOperando, segundoOperando, operador);
         }
@@ -61,7 +72,7 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnLimpiar_Click(object sender, EventArgs e)
+        private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
             btnConvertirADecimal.Enabled = true;
@@ -74,25 +85,23 @@ namespace MiCalculadora
         private void Limpiar()
         {
             this.txtNumero1.Text = String.Empty;
-            this.cmbOperador.Text = "+";
+            this.cmbOperador.SelectedIndex = 0;
             this.txtNumero2.Text = String.Empty;
-            this.lblResultado.Text = String.Empty;
-            
+            this.lblResultado.Text = "Resultado";
+
         }
-
-
 
         /// <summary>
         /// Convierte el resultado de la operación en un numero binario y lo muestra en lblResultado
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnConvertirABinario_Click(object sender, EventArgs e)
+        private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
-            this.lblResultado.Text = Numero.DecimalBinario(this.lblResultado.Text);
+            this.lblResultado.Text = Operando.DecimalBinario(this.lblResultado.Text);
             btnConvertirABinario.Enabled = false;
             btnConvertirADecimal.Enabled = true;
-            
+            this.lstOperaciones.Items.Add(this.lblResultado.Text);
         }
 
         /// <summary>
@@ -100,24 +109,36 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnConvertirADecimal_Click(object sender, EventArgs e)
+        private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            this.lblResultado.Text = Numero.BinarioDecimal(this.lblResultado.Text);
+            this.lblResultado.Text = Operando.BinarioDecimal(this.lblResultado.Text);
             btnConvertirABinario.Enabled = true;
             btnConvertirADecimal.Enabled = false;
-
+            this.lstOperaciones.Items.Add(this.lblResultado.Text);
         }
 
+
         /// <summary>
-        /// cierra el formulario mediante el metodo Dispose()
+        /// cierra el formulario utilizando formClosing
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnCerrar_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
-            Dispose();
+            this.Close();
         }
 
-      
+        /// <summary>
+        /// cierra el formulario 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void MiCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Seguro de querer salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }

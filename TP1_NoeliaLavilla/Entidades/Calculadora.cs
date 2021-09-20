@@ -12,21 +12,21 @@ namespace Entidades
         /// Valida que el operador recibido sea +, -, / o*. Caso contrario retornará +.
         /// </summary>
         /// <param name="operador"></param>
-        /// <returns> string operadorStr </returns>
-        private static string ValidarOperador(char operador)
+        /// <returns> char operadorValidado </returns>
+        private static char ValidarOperador(char operador)
         {
-            string operadorStr;
+            char operadorValidado;
 
             if (!(operador == '+' || operador == '-' || operador == '/' || operador == '*'))
             {
-                operadorStr = "+";
+                operadorValidado = '+';
             }
             else
             {
-                operadorStr = operador.ToString();
+                operadorValidado = operador;
             }
 
-            return operadorStr;
+            return operadorValidado;
         }
 
         /// <summary>
@@ -37,24 +37,24 @@ namespace Entidades
         /// <param name="num2"></param>
         /// <param name="operador"></param>
         /// <returns></returns>
-        public static double Operar(Numero num1, Numero num2, string operador)
+        public static double Operar(Operando num1, Operando num2, char operador)
         {
             double resultado;
 
-            operador = ValidarOperador(operador[0]);
+            operador = ValidarOperador(operador);
 
             switch (operador)
             {
-                case "+":
+                case '+':
                     resultado = num1 + num2;
                     break;
-                case "-":
+                case '-':
                     resultado = num1 - num2;
                     break;
-                case "/":
+                case '/':
                     resultado = num1 / num2;
                     break;
-                case "*":
+                case '*':
                     resultado = num1 * num2;
                     break;
                 default:
