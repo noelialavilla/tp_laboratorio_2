@@ -19,7 +19,7 @@ D:\UTN\Segundo cuatrimestre\Laboratorio II\TP2\TP-02-Cascara.r2\TP-02\Entidades\
 D:\UTN\Segundo cuatrimestre\Laboratorio II\TP2\TP-02-Cascara.r2\TP-02\Entidades\obj\Debug\Entidades.pdb
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\bin\Debug\Entidades.dll
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\bin\Debug\Entidades.pdb
-D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\obj\Debug\Entidades.dll
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\obj\Debug\Entidades.pdb
+D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache

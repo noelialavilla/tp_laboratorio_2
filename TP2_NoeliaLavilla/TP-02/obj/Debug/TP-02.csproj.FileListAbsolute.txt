@@ -36,8 +36,8 @@ D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\bin\Debug\TP-02.exe
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\bin\Debug\TP-02.pdb
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\bin\Debug\Entidades.dll
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\bin\Debug\Entidades.pdb
-D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\obj\Debug\TP-02.exe
 D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\obj\Debug\TP-02.pdb
+D:\LabII\TP_Laboratorio_II\TP2_NoeliaLavilla\TP-02\obj\Debug\TP-02.csproj.AssemblyReference.cache
